@@ -1,0 +1,76 @@
+  /*  Navbar  */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+    background-color: #b9778ade;
+  }
+  
+  .navbar.sticky {
+    padding: 15px 0;
+    background: #8e5968de;
+  }
+  
+  .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+  /*  Nav Logo Span Linear-Gradient  */
+  .navbar .logo a span {
+    background: linear-gradient(135deg, #DDDDDD, #F9DFDC, #e783b1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar.sticky .logo a span {
+    color: #fff;
+  }
+  
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .navbar .menu li a {
+    display: block;
+    color: #F9DFDC;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .menu li a:hover {
+    color: #F5C0C0;
+  }
+  
+  .navbar.sticky .menu li a:hover {
+    color: #F5C0C0;
+  }
+
+
+
+  .home .home-content a {
+    display: inline-block;
+    background: #D17D98;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #e783b1;
+    transition: all 0.3s ease;
+  }
