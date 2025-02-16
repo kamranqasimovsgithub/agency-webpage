@@ -142,7 +142,9 @@
   }
   .navbar .logo img{
     max-width: 90px;
-    border-radius: 15px;
+    border-radius: 50%;
+    filter: brightness(88%);
+
   }
   
   /*  Nav Logo Span Linear-Gradient  */
