@@ -798,6 +798,7 @@
     overflow:hidden;
     height: 60vh;
     transition: 1s;
+    filter: brightness(80%);
 }
   .split-1 .screen:nth-child(1){
     border-radius: 15px 0 0;
@@ -822,30 +823,43 @@
     flex-grow: 5;
     opacity: 1;
 }
-.split .screen:nth-child(1){
-    background:url(https://images.unsplash.com/photo-1611926653458-09294b3142bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+.split-1 .screen:nth-child(1){
+    background:url("../img/p1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.split .screen:nth-child(2){
-    background:url(https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+.split-1 .screen:nth-child(2){
+    background:url("../img/p2.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.split .screen:nth-child(3){
-    background:url(https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+.split-1 .screen:nth-child(3){
+    background:url("../img/p3.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.split .screen:nth-child(4){
-    background:url(https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+.split-2 .screen:nth-child(1){
+    background:url("../img/p4.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+.split-2 .screen:nth-child(2){
+    background:url("../img/p5.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.split-2 .screen:nth-child(3){
+    background:url("../img/p6.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .split .screen .content{
     position: absolute;
     margin-top:150px;
